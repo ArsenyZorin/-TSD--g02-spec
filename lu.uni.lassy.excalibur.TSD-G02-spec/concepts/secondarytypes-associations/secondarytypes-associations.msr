@@ -1,0 +1,21 @@
+/*
+* @author zorin
+* @date Thu Oct 13 14:19:04 MSK 2016
+*/
+
+package lu.uni.lassy.excalibur.TSD.G02.spec.concepts.secondarytypes.associations {
+
+import lu.uni.lassy.messir.libraries.calendar
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.string
+
+
+
+Concept Model {
+	
+	Secondary Types {
+	
+	}
+}
+}
