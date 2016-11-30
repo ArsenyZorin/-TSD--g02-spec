@@ -1,0 +1,10 @@
+/*
+@author zorin
+@date Thu Dec 01 01:29:34 MSK 2016
+*/
+
+
+@@view uci-uciSimpleAndComplete
+@instance Use-Case icrash.usecases.suDeployAndRun.uciSimpleAndComplete
+@description ""
+@caption ""

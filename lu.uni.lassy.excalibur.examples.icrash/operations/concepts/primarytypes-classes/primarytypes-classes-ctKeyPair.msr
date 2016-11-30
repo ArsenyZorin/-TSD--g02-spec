@@ -1,0 +1,92 @@
+package icrash.concepts.primarytypes.classes.operations.classes.ctKeyPair {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+import icrash.concepts.secondarytypes.datatypes
+import icrash.concepts.secondarytypes.classes
+
+Operation Model {
+//------------------------------------------------------------
+operation: icrash.concepts.primarytypes.classes.ctKeyPair.intiForEncoding(
+	AprivKey:dtPrivateKey, 
+	AdecodedPwd:ptString
+):ptBoolean{
+postF{
+if
+(
+let Self:ctKeyPair in
+/* Post F01 */
+Self.privKey = Alogin
+and Self.decodedPwd = AdecodedPwd
+		
+/* Post F02 */
+and (Self.oclIsNew and self = Self)
+)
+then (result = true)
+else (result = false)
+endif}}
+//------------------------------------------------------------
+operation: icrash.concepts.primarytypes.classes.ctKeyPair.initForDecoding(
+	ApubKey:dtPublicKey,
+	AencodedPwd:dtEncodedPassword
+):ptBoolean{
+postF{
+if
+(
+let Self:ctKeyPair in
+/* Post F01 */
+Self.pubKey = ApubKey
+and Self.encodedPwd = AencodedPwd
+	
+/* Post F02 */
+and (Self.oclIsNew and self = Self)
+)
+then (result = true)
+else (result = false)
+endif}}
+//------------------------------------------------------------
+operation: icrash.concepts.primarytypes.classes.ctKeyPair.getKeys():ptBoolean{
+postF{ 
+let ThePublicKey:dtPublicKey in
+let ThePrivateKey:dtPrivateKey in
+if 
+( /* Post F01 */
+self.pubKey = ThePublicKey
+and self.privKey = ThePrivateKey
+)
+then (result = true)
+else (result = false)
+endif}}
+//------------------------------------------------------------
+operation: icrash.concepts.primarytypes.classes.ctKeyPair.encodeMsg():ptBoolean{
+postF{ 
+let ThePrivateKey:dtPrivateKey in
+let ThePassword:dtPassword in
+if 
+( /* Post F01 */
+self.pubKey = ThePublicKey
+and self.privKey = ThePrivateKey
+)
+then (result = true)
+else (result = false)
+endif}}
+//------------------------------------------------------------
+operation: icrash.concepts.primarytypes.classes.ctKeyPair.decodeMsg():ptBoolean{
+postF{ 
+let ThePublicKey:dtPublicKey in
+let ThePrivateKey:dtPrivateKey in
+if 
+( /* Post F01 */
+self.pubKey = ThePublicKey
+and self.privKey = ThePrivateKey
+)
+then (result = true)
+else (result = false)
+endif}}
+}
+}

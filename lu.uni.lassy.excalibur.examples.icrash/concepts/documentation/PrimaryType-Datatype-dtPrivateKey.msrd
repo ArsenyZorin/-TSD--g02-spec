@@ -1,0 +1,12 @@
+/*
+@author zorin
+@date Wed Nov 30 14:45:51 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtPrivateKey
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.dtPrivateKey.is
+""
+@endOperations

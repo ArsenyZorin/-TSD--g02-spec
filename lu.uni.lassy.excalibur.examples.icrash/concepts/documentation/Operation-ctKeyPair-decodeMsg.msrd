@@ -1,0 +1,16 @@
+/*
+@author zorin
+@date Wed Nov 30 14:45:48 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.classes.ctKeyPair.decodeMsg
+@description "
+ "
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//example
+@example" "

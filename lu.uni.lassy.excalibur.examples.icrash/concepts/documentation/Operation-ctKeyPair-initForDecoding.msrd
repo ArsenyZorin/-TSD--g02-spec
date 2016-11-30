@@ -1,0 +1,25 @@
+/*
+@author zorin
+@date Wed Nov 30 14:45:43 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.classes.ctKeyPair.initForDecoding
+//parameters
+@parameter
+icrash.concepts.primarytypes.classes.ctKeyPair.initForDecoding.ApubKey
+""
+@parameter
+icrash.concepts.primarytypes.classes.ctKeyPair.initForDecoding.AencodedPwd
+""
+@endParameters
+
+@description "
+ "
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//example
+@example" "

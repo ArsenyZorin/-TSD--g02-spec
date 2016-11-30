@@ -1,0 +1,12 @@
+/*
+@author zorin
+@date Wed Nov 30 14:45:49 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtPublicKey
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.dtPublicKey.is
+""
+@endOperations

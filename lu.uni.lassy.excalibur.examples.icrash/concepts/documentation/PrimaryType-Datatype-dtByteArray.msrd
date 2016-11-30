@@ -1,0 +1,12 @@
+/*
+@author zorin
+@date Wed Nov 30 14:45:55 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtByteArray
+@description ""
+@attribute
+icrash.concepts.primarytypes.datatypes.dtByteArray.value
+""
+@endAttributes

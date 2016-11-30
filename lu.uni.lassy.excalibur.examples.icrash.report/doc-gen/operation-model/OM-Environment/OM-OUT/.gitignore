@@ -1,0 +1,17 @@
+/OM-actActivator-oeSetClock.tex
+/OM-actActivator-oeSollicitateCrisisHandling.tex
+/OM-actAdministrator-oeAddCoordinator.tex
+/OM-actAdministrator-oeDeleteCoordinator.tex
+/OM-actAuthenticated-oeLogin.tex
+/OM-actAuthenticated-oeLogout.tex
+/OM-actComCompany-oeAlert.tex
+/OM-actCoordinator-oeCloseCrisis.tex
+/OM-actCoordinator-oeGetAlertsSet.tex
+/OM-actCoordinator-oeGetCrisisSet.tex
+/OM-actCoordinator-oeInvalidateAlert.tex
+/OM-actCoordinator-oeReportOnCrisis.tex
+/OM-actCoordinator-oeSetCrisisHandler.tex
+/OM-actCoordinator-oeSetCrisisStatus.tex
+/OM-actCoordinator-oeSetCrisisType.tex
+/OM-actCoordinator-oeValidateAlert.tex
+/OM-actMsrCreator-oeCreateSystemAndEnvironment.tex
