@@ -80,6 +80,26 @@ import lu.uni.lassy.messir.libraries.calendar
 	 		}
 		}
 		
+		actor actMobileCoordinator 
+						role rnactMobileCoordinator 
+						cardinality [0..*] 
+						extends actCoordinator{
+
+			operation init():ptBoolean
+
+			output interface outactMobileCoordinator{
+				operation oeSaveUpdates(
+										AdtCoordinatorId:dtCoordinatorID, 
+										AdtCoordinatorFirstName:dtCoordinatorFirstName,
+										AdtCoordinatorLastName:dtCoordinatorLastName
+										):ptBoolean
+			}
+			
+			input interface inactMobileCoordinator{
+				operation ieSendUpdatedInformation():ptBoolean
+	 		}
+		}
+		
 		actor actComCompany role rnactComCompany cardinality [0..*]{
 
 			operation init():ptBoolean

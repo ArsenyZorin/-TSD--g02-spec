@@ -6,17 +6,9 @@
 
 @@Primary Type Class icrash.concepts.primarytypes.classes.ctKeyPair
 @description "The class that stores pair of keys and allows to encode or decode a message"
-@attribute
-icrash.concepts.primarytypes.classes.ctKeyPair.pubKey
-"used to decode encoded password on the server side"
-@attribute
-icrash.concepts.primarytypes.classes.ctKeyPair.privKey
-"used to encode password on a client side"
-@endAttributes
-@operation
-icrash.concepts.primarytypes.classes.ctKeyPair.getKeys
-"generates a pair of keys"
+
+
 @operation
 icrash.concepts.primarytypes.classes.ctKeyPair.decodeMsg
-"decodes encoded message"
+"decodes encoded password"
 @endOperations

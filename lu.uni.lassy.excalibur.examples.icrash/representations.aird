@@ -5656,7 +5656,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@edgeMappings[name='UCI_SD_UC_Executed']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_SDZC07dJEeaiRsoueE-lJA" name="oeLogin(&quot;icrashadmin&quot;,&quot;7WXC1359&quot;)" sourceNode="_SDYbw7dJEeaiRsoueE-lJA" targetNode="_SDYbpLdJEeaiRsoueE-lJA">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_SDZC07dJEeaiRsoueE-lJA" name="oeLogin(&quot;icrashadmin&quot;,&quot;[B@6979e8cb&quot;)" sourceNode="_SDYbw7dJEeaiRsoueE-lJA" targetNode="_SDYbpLdJEeaiRsoueE-lJA">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.2/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.2/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_f-3-yrdMEeaiRsoueE-lJA" y="200" height="0"/>
@@ -5666,7 +5666,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@edgeMappings[name='UCI_SD_UC_Executed']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_SDZC1rdJEeaiRsoueE-lJA" name="oeAddCoordinator(&quot;1&quot;,&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;)" sourceNode="_SDYbxbdJEeaiRsoueE-lJA" targetNode="_SDYbpLdJEeaiRsoueE-lJA">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_SDZC1rdJEeaiRsoueE-lJA" name="oeAddCoordinator(&quot;1&quot;,&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;,&quot;Sun RSA public key, 2048 bits ...&quot;)" sourceNode="_SDYbxbdJEeaiRsoueE-lJA" targetNode="_SDYbpLdJEeaiRsoueE-lJA">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.3/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.3/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_f-3-y7dMEeaiRsoueE-lJA" y="290" height="0"/>
@@ -5726,7 +5726,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@edgeMappings[name='UCI_SD_UC_Executed']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_SDZC6LdJEeaiRsoueE-lJA" name="oeLogin(&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;)" sourceNode="_SDYb5bdJEeaiRsoueE-lJA" targetNode="_SDYbpLdJEeaiRsoueE-lJA">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_SDZC6LdJEeaiRsoueE-lJA" name="oeLogin(&quot;steve&quot;,&quot;[B@6979e8cb&quot;)" sourceNode="_SDYb5bdJEeaiRsoueE-lJA" targetNode="_SDYbpLdJEeaiRsoueE-lJA">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.9/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.9/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_f-3-0bdMEeaiRsoueE-lJA" y="785" height="0"/>
@@ -20292,7 +20292,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@edgeMappings[name='UCI_SD_UC_Executed']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FoMJ16xoEeSODO8Px4BY7g" name="oeLogin(&quot;icrashadmin&quot;,&quot;7WXC1359&quot;)" sourceNode="_FoMJKKxoEeSODO8Px4BY7g" targetNode="_FoMI4qxoEeSODO8Px4BY7g">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FoMJ16xoEeSODO8Px4BY7g" name="oeLogin(&quot;icrashadmin&quot;,&quot;[B@6979e8cb&quot;)" sourceNode="_FoMJKKxoEeSODO8Px4BY7g" targetNode="_FoMI4qxoEeSODO8Px4BY7g">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.2/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.2/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_GAwZ6KxoEeSODO8Px4BY7g" y="250" height="0"/>
@@ -20302,7 +20302,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@edgeMappings[name='UCI_SD_UC_Executed']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FoMJ3KxoEeSODO8Px4BY7g" name="oeAddCoordinator(&quot;1&quot;,&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;)" sourceNode="_FoMJLaxoEeSODO8Px4BY7g" targetNode="_FoMI4qxoEeSODO8Px4BY7g">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FoMJ3KxoEeSODO8Px4BY7g" name="oeAddCoordinator(&quot;1&quot;,&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;,&quot;Sun RSA public key, 2048 bits ...&quot;)" sourceNode="_FoMJLaxoEeSODO8Px4BY7g" targetNode="_FoMI4qxoEeSODO8Px4BY7g">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.3/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.3/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_GAwZ6axoEeSODO8Px4BY7g" y="370" height="0"/>
@@ -20362,7 +20362,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@edgeMappings[name='UCI_SD_UC_Executed']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FoMJ-qxoEeSODO8Px4BY7g" name="oeLogin(&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;)" sourceNode="_FoMJeqxoEeSODO8Px4BY7g" targetNode="_FoMI4qxoEeSODO8Px4BY7g">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_FoMJ-qxoEeSODO8Px4BY7g" name="oeLogin(&quot;steve&quot;,&quot;[B@6979e8cb&quot;)" sourceNode="_FoMJeqxoEeSODO8Px4BY7g" targetNode="_FoMI4qxoEeSODO8Px4BY7g">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.9/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.9/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_GAwZ76xoEeSODO8Px4BY7g" y="1071" height="0"/>
@@ -21438,7 +21438,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@edgeMappings[name='UCI_SD_UC_Executed']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_pZEL6LCGEeSLvO4ExPxeaQ" name="oeLogin(&quot;icrashadmin&quot;,&quot;7WXC1359&quot;)" sourceNode="_pZELjrCGEeSLvO4ExPxeaQ" targetNode="_pZELUrCGEeSLvO4ExPxeaQ">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_pZEL6LCGEeSLvO4ExPxeaQ" name="oeLogin(&quot;icrashadmin&quot;,&quot;[B@6979e8cb&quot;)" sourceNode="_pZELjrCGEeSLvO4ExPxeaQ" targetNode="_pZELUrCGEeSLvO4ExPxeaQ">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.1/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.2/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.1/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.2/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_pqNlwLCGEeSLvO4ExPxeaQ" y="250" height="0"/>
@@ -21448,7 +21448,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:BasicMessageMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@edgeMappings[name='UCI_SD_UC_Executed']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_pZEL7bCGEeSLvO4ExPxeaQ" name="oeAddCoordinator(&quot;1&quot;,&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;)" sourceNode="_pZELk7CGEeSLvO4ExPxeaQ" targetNode="_pZELUrCGEeSLvO4ExPxeaQ">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_pZEL7bCGEeSLvO4ExPxeaQ" name="oeAddCoordinator(&quot;1&quot;,&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;,&quot;Sun RSA public key, 2048 bits...&quot;)" sourceNode="_pZELk7CGEeSLvO4ExPxeaQ" targetNode="_pZELUrCGEeSLvO4ExPxeaQ">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.1/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.3/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.1/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.3/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_pqNlwbCGEeSLvO4ExPxeaQ" y="370" height="0"/>
@@ -22506,7 +22506,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@nodeMappings[name='UCI_SD_UseCaseActor%20Instance%20Role']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_LzVnwrCHEeSLvO4ExPxeaQ" name="oeLogin(&quot;steve&quot;,&quot;pwdMessirExcalibur2017&quot;)" sourceNode="_LzVndLCHEeSLvO4ExPxeaQ" targetNode="_LzVnIrCHEeSLvO4ExPxeaQ">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_LzVnwrCHEeSLvO4ExPxeaQ" name="oeLogin(&quot;steve&quot;,&quot;[B@6979e8cb&quot;)" sourceNode="_LzVndLCHEeSLvO4ExPxeaQ" targetNode="_LzVnIrCHEeSLvO4ExPxeaQ">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.2/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.0/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecase-suDeployAndRun.msr#//@usecaseM/@useCaseInstances.2/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.0/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_L8dG67CHEeSLvO4ExPxeaQ" y="139" height="0"/>
@@ -24892,7 +24892,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']/@ownedRepresentations[name='Use%20Case%20Instance%20Sequence%20Diagram']/@defaultLayer/@nodeMappings[name='UCI_SD_UseCaseActor%20Instance%20Role']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TzZRa-mbEeStzPyVa7XVaw" name="oeLogin(&quot;icrashadmin&quot;,&quot;7WXC1359&quot;)" sourceNode="_TzZRT-mbEeStzPyVa7XVaw" targetNode="_TzZRQumbEeStzPyVa7XVaw">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TzZRa-mbEeStzPyVa7XVaw" name="oeLogin(&quot;icrashadmin&quot;,&quot;[B@6979e8cb&quot;)" sourceNode="_TzZRT-mbEeStzPyVa7XVaw" targetNode="_TzZRQumbEeStzPyVa7XVaw">
         <target xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecaseinstance-ugSecurelyUseSystem-uciugSecurelyUseSystem.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.0/@actor"/>
         <semanticElements xmi:type="messir:UseCaseInstanceStepActor" href="usecases/usecaseinstance-ugSecurelyUseSystem-uciugSecurelyUseSystem.msr#//@usecaseM/@useCaseInstances.0/@useCaseInstanceDefinition/@useCaseInstanceStepsBlock/@useCaseInstanceSteps.0/@actor"/>
         <graphicalFilters xmi:type="diagram:AbsoluteBoundsFilter" xmi:id="_USWeI-mbEeStzPyVa7XVaw" y="130" height="0"/>

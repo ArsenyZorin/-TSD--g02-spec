@@ -1,0 +1,12 @@
+/*
+@author zorin
+@date Thu Dec 08 16:09:04 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtCoordinatorLastName
+@description "A string used to represent last name of coordinators."
+@operation
+icrash.concepts.primarytypes.datatypes.dtCoordinatorLastName.is
+"used to determine which strings are considered as valid coordinators last name."
+@endOperations

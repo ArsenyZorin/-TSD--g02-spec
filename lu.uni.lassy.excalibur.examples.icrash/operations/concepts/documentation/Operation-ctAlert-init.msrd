@@ -16,6 +16,6 @@ icrash.concepts.primarytypes.classes.ctAlert.init
 " used to initialize the current object as a new instance of the ctAlert type."
 //postFunctional descriptions
 @postF 
-"true iff the system poststate includes the current object as a new ctAlert instance having its attributes equal to the ones provided as parameters. 
+"true if the system poststate includes the current object as a new ctAlert instance having its attributes equal to the ones provided as parameters. 
 "
 @endPostF

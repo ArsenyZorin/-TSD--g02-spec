@@ -1,0 +1,26 @@
+\subsection{\msrcode{actMobileCoordinator} Actor}
+
+
+\begin{actortable}
+	\addheading{Actor}
+	
+	\adddoublerow{actMobileCoordinator}{represents actor responsible of handling one or several crisis for the \msricrash system from mobile GUI.}
+	
+	\addrowheading{Extends}
+	\addsinglerow{icrash.environment.actCoordinator}
+	
+	
+	
+	
+	
+
+	\addrowheading{OutputInterfaces}
+	\addnumbereddoublerow{OUT}{\hypertarget{actMobileCoordinator.outactMobileCoordinator.oeSaveUpdates}
+			{\msrcode{oeSaveUpdates(AdtCoordinatorId:dtCoordinatorID, AdtCoordinatorFirstNamel:dtCoordinatorFirstName, AdtCoordinatorLastName:dtCoordinatorLastName):ptBoolean}}}
+			{sent to update the information about a specific coordinator.}
+	
+	\addrowheading{InputInterfaces}
+	\addnumbereddoublerow{IN}{\msrcode{ieSendUpdatedInformation():ptBoolean}}
+							 {receives a message about updated information.}
+	
+\end{actortable}

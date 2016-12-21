@@ -6,11 +6,10 @@
 
 @@Operation
 icrash.concepts.primarytypes.classes.ctKeyPair.decodeMsg
-@description "
- "
+@description "used to decode a password through public key generated with RSA 2048 algorithm"
 //postFunctional descriptions
 @postF 
-" "
+"true if password was succesfully decoded "
 @endPostF
 //example
 @example" "

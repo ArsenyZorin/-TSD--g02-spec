@@ -100,6 +100,8 @@ import lu.uni.lassy.messir.libraries.calendar
 					extends ctAuthenticated{
 			
 				attribute id:dtCoordinatorID
+				attribute firstName:dtCoordinatorFirstName
+				attribute lastName:dtCoordinatorLastName
 				
 				operation init(
 										Aid:dtCoordinatorID ,
@@ -107,7 +109,8 @@ import lu.uni.lassy.messir.libraries.calendar
 										Apwd:dtPassword ,
 										ApubKey:dtPublicKey):ptBoolean
 			}
-
+			
+			
 			class ctAdministrator 
 					role rnctAdministrator
 					cardinality [1..1]
@@ -123,18 +126,9 @@ import lu.uni.lassy.messir.libraries.calendar
 					role rnctKeyPair
 					cardinality[1..1]{
 						
-				attribute pubKey:dtPublicKey
-				attribute privKey:dtPrivateKey
-				attribute encodedPwd: dtEncodedPassword
-				attribute decodedPwd: ptString
-				
-				operation intiForEncoding(AprivKey:dtPrivateKey, AdecodedPwd:ptString):ptBoolean
-				operation initForDecoding(ApubKey:dtPublicKey, AencodedPwd:dtEncodedPassword):ptBoolean
-				operation getKeys():ptBoolean
-				
-				operation encodeMsg():ptBoolean
-				operation decodeMsg():ptBoolean
-					}
+				operation decodeMsg(pwd:dtEncodedPassword,
+										publicKey:dtPublicKey):ptBoolean
+			}
 		}
 	}
 }

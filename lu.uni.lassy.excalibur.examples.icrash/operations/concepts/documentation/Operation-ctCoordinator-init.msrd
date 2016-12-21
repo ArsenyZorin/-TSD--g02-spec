@@ -14,6 +14,6 @@ icrash.concepts.primarytypes.classes.ctCoordinator.init
 "used to initialize the current object as a new instance of the ctCoordinator type."
 //postFunctional descriptions
 @postF 
-"true iff the system poststate includes the current object as a new ctCoordinator instance having its attributes equal to the ones provided as parameters.
+"true if the system poststate includes the current object as a new ctCoordinator instance having its attributes equal to the ones provided as parameters.
  "
 @endPostF

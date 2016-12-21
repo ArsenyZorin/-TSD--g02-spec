@@ -1,0 +1,46 @@
+package icrash.environment.operations.actMobileCoordinator.outactMobileCoordinator.oeSaveUpdates {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+import icrash.concepts.primarytypes.classes
+import icrash.environment
+import icrash.concepts.primarytypes.datatypes
+
+	Operation Model {
+
+		operation: icrash.environment.actMobileCoordinator.outactMobileCoordinator.oeSaveUpdates(AdtCoordinatorId:dtCoordinatorID, AdtCoordinatorFirstName:dtCoordinatorFirstName, AdtCoordinatorLastName:dtCoordinatorLastName):ptBoolean{
+		preP{
+			  let TheSystem: ctState in
+			  let TheActor:actMobileCoordinator in
+			  
+			  self.rnActor.rnSystem = TheSystem
+			  and self.rnActor = TheActor
+			  
+			/* PreP01 */
+			  and TheSystem.vpStarted = true
+			/* PreP02 */
+			  and TheActor.rnctAuthenticated.vpIsLogged = true
+		}
+		postF{
+			  let TheSystem: ctState in
+			  let TheActor:actMobileCoordinator in
+			  let ThectCoordinator:ctCoordinator in
+			  
+			  self.rnActor.rnSystem = TheSystem
+			  and self.rnActor = TheActor
+			/* PostF01 */
+			  TheSystem.rnctCoordinator->select(id.eq(AdtCoordinatorID))
+  			  = ThectCoordinator
+  			  and
+  			  ThectCoordinator.firstName@post = AdtCoordinatorFirstName
+  			  and ThectCoordinator.lastName@post = AdtCoordinatorLastName
+  			   
+			  and TheActor.rnInterfaceIN^ieSendUpdatedInformation()
+		}
+		postP{true}
+		}
+	}
+		
+}

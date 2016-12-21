@@ -1,0 +1,46 @@
+/*
+@author zorin
+@date Thu Dec 08 16:32:43 MSK 2016
+*/
+
+
+@@Operation
+icrash.environment.actMobileCoordinator.outactMobileCoordinator.oeSaveUpdates
+//parameters
+@parameter
+icrash.environment.actMobileCoordinator.outactMobileCoordinator.oeSaveUpdates.AdtCoordinatorId
+"used to define a coordinator"
+@parameter
+icrash.environment.actMobileCoordinator.outactMobileCoordinator.oeSaveUpdates.AdtCoordinatorFirstName
+"used to initialize the first name field"
+@parameter
+icrash.environment.actMobileCoordinator.outactMobileCoordinator.oeSaveUpdates.AdtCoordinatorLastName
+"used to initialize the last name field"
+@endParameters
+
+@description "
+ "
+//preProtocol descriptions
+@preP
+"the system is started"
+@preP
+"the actor logged previously and did not log out ! "
+@endPreP
+//preFunctional descriptions
+@preF
+"none "
+@endPreF
+//postFunctional descriptions
+@postF 
+"the system's state has an instance of ctCoordinator initialized with the given id. "
+@postF 
+"the ctCoordinator gets new first and last name from the given parameters. "
+@postF 
+"the mobile coordinator actor is informed about the satisfaction of its request."
+@endPostF
+//postProtocol descriptions
+@postP 
+"none "
+@endPostP
+//example
+@example" "

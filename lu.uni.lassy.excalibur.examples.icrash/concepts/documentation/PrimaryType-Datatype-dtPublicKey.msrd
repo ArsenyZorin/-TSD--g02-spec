@@ -5,8 +5,8 @@
 
 
 @@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtPublicKey
-@description ""
+@description "a public key string used to decode a encoded password of an \msricrash user"
 @operation
 icrash.concepts.primarytypes.datatypes.dtPublicKey.is
-""
+"used to determine if dtPublicKey value is null"
 @endOperations

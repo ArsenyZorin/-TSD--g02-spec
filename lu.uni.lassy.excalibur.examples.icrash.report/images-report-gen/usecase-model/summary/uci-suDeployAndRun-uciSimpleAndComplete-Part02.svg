@@ -194,7 +194,7 @@
         <path d="M-1 -1 L919 -1 L919 1271 L-1 1271 L-1 -1 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath64">
-        <path d="M62 71 L440 71 L440 95 L62 95 L62 71 Z" />
+        <path d="M106 71 L396 71 L396 95 L106 95 L106 71 Z" />
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath65">
         <path d="M96 93 L108 93 L108 104 L96 104 L96 93 Z" />
@@ -426,7 +426,7 @@
       <rect x="755" y="1170" clip-path="url(#clipPath61)" fill="none" width="19" height="39" stroke="rgb(194,239,255)" />
       <text xml:space="preserve" x="776" y="1189" clip-path="url(#clipPath62)" stroke="none">in09</text>
       <line clip-path="url(#clipPath63)" fill="none" x1="755" x2="98" y1="98" y2="98" stroke="rgb(136,136,136)" stroke-width="2.1" />
-      <text x="63" y="91" clip-path="url(#clipPath64)" stroke="none" stroke-width="2.1" xml:space="preserve">oeLogin("steve","pwdMessirExcalibur2017")</text>
+      <text x="107" y="91" clip-path="url(#clipPath64)" stroke="none" stroke-width="2.1" xml:space="preserve">oeLogin("steve","[B@6979e8cb")</text>
       <line clip-path="url(#clipPath65)" fill="none" x1="105" x2="98" y1="95" y2="98" stroke="rgb(136,136,136)" stroke-width="2.1" />
       <line clip-path="url(#clipPath65)" fill="none" x1="98" x2="105" y1="98" y2="101" stroke="rgb(136,136,136)" stroke-width="2.1" />
       <line clip-path="url(#clipPath63)" fill="none" x1="755" x2="98" y1="209" y2="209" stroke="rgb(136,136,136)" stroke-width="2.1" />

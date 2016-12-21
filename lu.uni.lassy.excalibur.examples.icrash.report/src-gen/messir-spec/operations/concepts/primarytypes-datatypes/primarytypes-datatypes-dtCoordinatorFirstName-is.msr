@@ -1,0 +1,26 @@
+package icrash.concepts.primarytypes.datatypes.operations.datatypes.dtCoordinatorFirstName.is {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+
+	Operation Model {
+
+		operation: icrash.concepts.primarytypes.datatypes.dtCoordinatorFirstName.is():ptBoolean{
+		postF{ 
+        let TheResult: ptBoolean in
+        let MaxLength: ptInteger in
+        ( if
+          ( MinLength = 20
+            and AdtValue.value.length().leq(MinLength)
+          )
+          then (TheResult = true)
+          else (TheResult = false)
+          endif
+          result = TheResult
+        )
+        }
+		}
+	}
+}

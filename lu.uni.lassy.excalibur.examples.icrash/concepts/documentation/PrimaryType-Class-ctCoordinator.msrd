@@ -5,6 +5,10 @@
 
 @attribute icrash.concepts.primarytypes.classes.ctCoordinator.id
 "a unique identification information."
+@attribute icrash.concepts.primarytypes.classes.ctCoordinator.firstName
+"A string used to represent first names of coordinators."
+@attribute icrash.concepts.primarytypes.classes.ctCoordinator.lastName
+"A string used to represent last name of coordinators.."
 
 @endAttributes
 

@@ -1,0 +1,87 @@
+\subsection{Operation Model for oeSaveUpdates}
+
+\label{OM-oeSaveUpdates}
+
+
+The \msrcode{oeSaveUpdates} operation has the following properties:
+
+	\begin{operationmodel}
+	\addheading{Operation}
+	\adddoublerow{oeSaveUpdates}{
+	 }
+
+	\addrowheading{Parameters}
+	\addnumbereddoublerow{}{AdtCoordinatorId: dtCoordinatorID}{} 
+	\addnumbereddoublerow{}{AdtCoordinatorFirstNamel: dtCoordinatorFirstName}{} 
+	\addnumbereddoublerow{}{AdtCoordinatorLastName: dtCoordinatorLastName}{} 
+
+	\addrowheading{Return type}
+	\addsinglerow{ptBoolean}
+
+	\addrowheading{Pre-Condition (protocol)}
+	\addnumberedsinglerow{PreP}{ }
+		
+	\addrowheading{Pre-Condition (functional)}
+	\addnumberedsinglerow{PreF}{ }
+
+	\addrowheading{Post-Condition (functional)}
+	\addnumberedsinglerow{PostF}{ }
+
+	\addrowheading{Post-Condition (protocol)}
+	\addnumberedsinglerow{PostP}{ }
+	\end{operationmodel}
+
+
+
+	% ------------------------------------------
+	% MCL Listing
+	% ------------------------------------------
+	\vspace{1cm}
+	The listing~\ref{OM-actMobileCoordinator-oeSaveUpdates-MCL-LST} provides the \msrmessir (MCL-oriented) specification of the operation.
+	
+	\scriptsize
+	\vspace{0.5cm}
+	\begin{lstlisting}[style=MessirStyle,firstnumber=auto,captionpos=b,caption={\msrmessir (MCL-oriented) specification of the operation \emph{oeSaveUpdates}.},label=OM-actMobileCoordinator-oeSaveUpdates-MCL-LST]
+
+	/* Pre Protocol:*/ 
+	preP{let TheSystem: ctState in
+				  let TheActor:actMobileCoordinator in
+				  
+				  self.rnActor.rnSystem = TheSystem
+				  and self.rnActor = TheActor
+				  
+				/* PreP01 */
+				  and TheSystem.vpStarted = true
+				/* PreP02 */
+				  and TheActor.rnctAuthenticated.vpIsLogged = true}
+	
+	
+	/* Post Functional:*/ 
+	postF{let TheSystem: ctState in
+				  let TheActor:actMobileCoordinator in
+				  let ThectCoordinator:ctCoordinator in
+				  
+				  self.rnActor.rnSystem = TheSystem
+				  and self.rnActor = TheActor
+				/* PostF01 */
+				  TheSystem.rnctCoordinator->select(id.eq(AdtCoordinatorID))
+	  			  = ThectCoordinator
+	  			  and
+	  			  ThectCoordinator.firstName = AdtCoordinatorFirstNamel
+	  			   
+				  and TheActor.rnInterfaceIN^ieSendUpdatedInformation()}
+	
+	/* Post Protocol:*/ 
+	postP{ true}
+	
+	\end{lstlisting}
+	\normalsize 
+	
+	
+	
+	
+
+
+
+
+

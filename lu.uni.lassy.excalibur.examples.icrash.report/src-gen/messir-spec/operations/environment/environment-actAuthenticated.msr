@@ -32,13 +32,15 @@ postF{
   let TheactAuthenticated:actAuthenticated in
   let AptStringMessageForTheactAuthenticated: ptString in
   let AptStringMessageForTheactAdministrator:ptString in
+  let ctAuthPubKey:dtPublicKey in
   
   self.rnActor.rnSystem = TheSystem
   and self.rnActor = TheactAuthenticated
+  and TheactAuthenticated.rnctAuthenticated.pubKey = ctAuthPubKey
   
   and /* PostF01 */
       if (TheactAuthenticated.rnctAuthenticated.pwd
-          = TheSystem.ctKeyPairs.decodeMsg()
+          = TheSystem.rnCtKeyPair.decodeMsg(AEncodedPassword,ctAuthPubKey)
           and TheactAuthenticated.rnctAuthenticated.login
               = AdtLogin
          )

@@ -1,0 +1,21 @@
+/*
+@author zorin
+@date Thu Dec 08 16:16:09 MSK 2016
+*/
+
+
+@@Actor icrash.environment.actMobileCoordinator
+@description 
+"represents actor responsible of handling one or several crisis for the \msricrash system from mobile GUI."
+//input events
+@inputEvent
+icrash.environment.actMobileCoordinator.inactMobileCoordinator.ieSendUpdatedInformation
+"receives a message about updated information."
+
+@endInputEvents
+//output events
+@outputEvent
+icrash.environment.actMobileCoordinator.outactMobileCoordinator.oeSaveUpdates
+"sent to update the information about a specific coordinator."
+
+@endOutputEvents
